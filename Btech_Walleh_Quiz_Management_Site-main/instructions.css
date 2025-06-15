@@ -1,0 +1,119 @@
+/* Base Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+/* Header Styling */
+header {
+  background: linear-gradient(to right, #fce4f7, #d6f0f7);
+  color: #0f0f0f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Separates logo left and nav right */
+  padding: 6px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 60px;
+}
+
+/* Logo and Title on the Left */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 35px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 20px;
+  color: #2c3e50;
+  margin: 0;
+}
+
+/* Navigation Links on the Right */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #0f0f0f;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+
+/* Main Container */
+.instruction-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+   background: linear-gradient(to right, #d6f0f7, #fce4f7);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Heading Styles */
+.instruction-container h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.instructions h2 {
+  color: #34495e;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Instructions List */
+.instructions ul {
+  list-style-type: square;
+  padding-left: 20px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Start Button */
+.start-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-start {
+  background-color: #080808;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-start:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #999;
+  font-size: 14px;
+}

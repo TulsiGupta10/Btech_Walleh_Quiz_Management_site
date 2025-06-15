@@ -1,0 +1,158 @@
+/* Base Reset */
+body {
+/* Header Styling */
+header {
+  background: linear-gradient(to right, #fce4f7, #d6f0f7);
+  color: #0f0f0f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  color: #004aad;
+  margin: 0;
+}
+
+nav a {
+  color: #222;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* Quiz Container */
+.quiz-container {
+    
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+ background: linear-gradient(to right, #d6f0f7, #fce4f7);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  
+}
+.quiz-conti {
+text-align:center;
+  
+}
+
+#timer {
+  text-align: right;
+  font-size: 16px;
+  color: #e63946;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#question-number {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#question {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+#options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#options button {
+  background-color: #e7f1ff;
+  border: 1px solid #007bff;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#options button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.button-row button {
+  padding: 10px 20px;
+  background-color: #0d0d0e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-row button:hover {
+  background-color: #0056b3;
+}
+
+/* Result Section */
+#result {
+  margin-top: 30px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#result h2 {
+  color: #333;
+}
+
+#result p {
+  margin: 10px 0;
+  color: #444;
+}
+
+#detailed-results {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #888;
+  font-size: 14px;
+}

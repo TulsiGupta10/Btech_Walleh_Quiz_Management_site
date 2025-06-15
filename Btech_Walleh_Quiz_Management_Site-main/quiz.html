@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BtechQuizzer - Quiz</title>
+  <link rel="stylesheet" href="quiz.css" />
+</head>
+<body>
+    <header>
+  <div class="logo">
+    <img src="btechwalleh-logo.jpeg" alt="Btech Walleh Logo">
+    <h1>Btech Walleh</h1>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+<div class="quiz-container">
+ <div class="quiz-conti">
+    <h1>BtechQuizzer</h1>  
+    <p>Full Stack Development Quiz</p>
+ </div>
+    
+    <div id="timer">Time Left: <span id="time">--:--</span></div>
+
+    <div id="quiz-box">
+      <div id="question-number"></div>
+      <div id="question"></div>
+      <div id="options"></div>
+      <div class="button-row">
+        <button id="prev-btn">Previous</button>
+        <button id="next-btn">Next</button>
+        <button id="submit-btn">Submit</button>
+      </div>
+    </div>
+
+    <div id="result" style="display: none;">
+      <h2>Quiz Summary</h2>
+      <p>Total Questions Attempted: <span id="attempted-count"></span></p>
+      <p>Correct Answers: <span id="correct-count"></span></p>
+      <p>Wrong Answers: <span id="wrong-count"></span></p>
+      <p>Total Time Taken: <span id="time-taken"></span></p>
+      <p><strong>Marks Obtained:</strong> <span id="marks-obtained"></span> / 10</p>
+      <div id="detailed-results"></div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 Btech Walleh. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="questionss.js"></script>
+  <script src="quiz.js"></script>
+</body>
+</html>
